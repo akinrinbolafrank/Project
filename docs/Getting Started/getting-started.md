@@ -3,7 +3,58 @@ title: Welcome to Help Desk Ticket Documentation - Portfolio
 hidden: false
 ---
 <Callout icon="📘" theme="info">
-  **Template:**  Delete this callout and edit this page with your content and links.
+  ###
+
+  **Template:**&#x20;
+
+  Triage:
+
+  Priority Level - Medium
+
+  Reason: User is unable to access their workstation, which affects productivity but is limited to a single user.
+
+  Initial Assessment: Verified whether the issue began and checked for any system-wide alerts that could indicate a broader authentication problem.
+
+  Questions asked: -
+  When did the issue start? 8:10 a.m.
+  Are you receiving any error messages? No
+  Have you recently changed your password? No
+  Are you connected to the network? Yes
+  Can you log in from another device or browser? No
+  Have you attempted a password reset? No
+  Has the issue occurred before? No
+
+  Troubleshooting Steps -
+
+  1. I verified the user’s identity through standard authentication questions and confirmed that the username being used to log in was correct and active in the system.
+
+  2. I instructed the user to attempt logging in once more and carefully noted the exact error message displayed to determine whether the issue was related to credentials, network connectivity, or account status.
+
+  3. I accessed the admin console to review the user’s account status. This included checking whether the account was locked, disabled, or if the password had expired, as any of these conditions could prevent successful login.
+
+  4. I initiated a password reset from the admin portal and walked the user through the steps required to create a new password. I then asked the user to log in again using the updated credentials.
+
+  5. I confirmed that the user’s workstation was properly connected to the network and communicating with the domain controller. This included checking Wi Fi/Ethernet status and ensuring no network interruptions were present.
+
+  6. To rule out system-wide issues, I attempted to log in using a test account on the same workstation. Successful login with the test account indicated that the issue was isolated to the user’s profile.
+
+  7. I cleared any cached credentials stored on the device and performed a full restart of the workstation to refresh system processes. This helped eliminate potential local authentication conflicts.
+
+  8. Reviewed recent system logs for authentication failures to identify patterns or repeated login attempts.
+
+  Escalation –
+  Escalation was performed after all Tier 1 troubleshooting steps were completed and documented.
+  I escalated to the Tier 2 support team because additional administrative access and deeper system-level investigation were required to resolve the login failure.
+  Reason for escalation -
+  Password reset attempts were unsuccessful, and the user’s account appeared to be either locked, corrupted, or experiencing an authentication issue beyond standard troubleshooting. Due to these indicators, the problem required backend intervention from a higher support tier.
+
+  Information provided to Tier 2 -
+
+  1. Username
+  2. Error message screenshot
+  3. Steps already taken - I documented all troubleshooting steps completed, including credential verification, password reset attempts, network checks, and workstation testing. This prevented duplication of work and allowed Tier 2 to continue from the correct point.
+  4. Time issue started
+  5. I confirmed that no other users were experiencing similar login issues. This indicated that the problem was not system-wide and was likely specific to the user’s account or workstation.
 </Callout>
 
 <Cards>
